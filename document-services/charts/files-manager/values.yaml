@@ -1,0 +1,7 @@
+# Default values for files-manager.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+appPort: 8080
+servicePort: 80
+replicas: 1
+imagePullPolicy: Never

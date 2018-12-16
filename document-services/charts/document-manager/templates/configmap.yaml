@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Chart.Name }}-configmap
+data:
+  application.yml: |
+    metadata-manager:
+      url: http://metadata-manager
+    file-manager:
+      url: http://files-manager
+
+

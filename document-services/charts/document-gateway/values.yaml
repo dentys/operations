@@ -1,0 +1,5 @@
+appPort: 8080
+servicePort: 80
+nodePort: 30800
+replicas: 1
+imagePullPolicy: Never

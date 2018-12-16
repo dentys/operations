@@ -1,0 +1,12 @@
+dependencies:
+  - name: document-gateway
+    condition: document-gateway.enabled,global.document-gateway.enabled
+
+  - name: document-manager
+    condition: document-manager.enabled,global.document-manager.enabled
+
+  - name: files-manager
+    condition: files-manager.enabled,global.files-manager.enabled
+
+  - name: metadata-manager
+    condition: metadata-manager.enabled,global.metadata-manager.enabled
